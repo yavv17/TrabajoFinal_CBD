@@ -37,7 +37,9 @@
             </asp:GridView>
             <asp:SqlDataSource ID="OrigenDatosGridViewConsultaSencilla1" runat="server" ConnectionString="<%$ ConnectionStrings:ConexionTechIADB %>" ProviderName="<%$ ConnectionStrings:ConexionTechIADB.ProviderName %>" SelectCommand="SELECT * FROM Producto"></asp:SqlDataSource>
             <br />
-            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/PaginaPrincipal.aspx">Regresar</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/PaginaPrincipal.aspx">Regresar inicio</asp:HyperLink>
+            <br />
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/PaginaConsultasSencillas.aspx">Regresar consultas sencillas</asp:HyperLink>
         </div>
     </form>
 </body>

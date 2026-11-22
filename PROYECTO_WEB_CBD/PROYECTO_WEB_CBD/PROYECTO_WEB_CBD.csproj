@@ -68,7 +68,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ConsultaSencilla1.aspx" />
+    <Content Include="ConsultaSencilla2.aspx" />
+    <Content Include="ConsultaSencilla3.aspx" />
+    <Content Include="PaginaConsultasSencillas.aspx" />
+    <Content Include="PaginaConsultasMultitabla.aspx" />
     <Content Include="PaginaPrincipal.aspx" />
+    <Content Include="PaginaProcedimientos.aspx" />
     <Content Include="Procedimiento1InsertarEstado.aspx" />
     <Content Include="Procedimiento2BuscarEstado.aspx" />
     <Content Include="Procedimiento3ActualizarEstado.aspx" />
@@ -82,12 +87,47 @@
     <Compile Include="ConsultaSencilla1.aspx.designer.cs">
       <DependentUpon>ConsultaSencilla1.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ConsultaSencilla2.aspx.cs">
+      <DependentUpon>ConsultaSencilla2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaSencilla2.aspx.designer.cs">
+      <DependentUpon>ConsultaSencilla2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaSencilla3.aspx.cs">
+      <DependentUpon>ConsultaSencilla3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaSencilla3.aspx.designer.cs">
+      <DependentUpon>ConsultaSencilla3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PaginaConsultasSencillas.aspx.cs">
+      <DependentUpon>PaginaConsultasSencillas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaginaConsultasSencillas.aspx.designer.cs">
+      <DependentUpon>PaginaConsultasSencillas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PaginaConsultasMultitabla.aspx.cs">
+      <DependentUpon>PaginaConsultasMultitabla.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaginaConsultasMultitabla.aspx.designer.cs">
+      <DependentUpon>PaginaConsultasMultitabla.aspx</DependentUpon>
+    </Compile>
     <Compile Include="PaginaPrincipal.aspx.cs">
       <DependentUpon>PaginaPrincipal.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PaginaPrincipal.aspx.designer.cs">
       <DependentUpon>PaginaPrincipal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PaginaProcedimientos.aspx.cs">
+      <DependentUpon>PaginaProcedimientos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaginaProcedimientos.aspx.designer.cs">
+      <DependentUpon>PaginaProcedimientos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Procedimiento1InsertarEstado.aspx.cs">
       <DependentUpon>Procedimiento1InsertarEstado.aspx</DependentUpon>
