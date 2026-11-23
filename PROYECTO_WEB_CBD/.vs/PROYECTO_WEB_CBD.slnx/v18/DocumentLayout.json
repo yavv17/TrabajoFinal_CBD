@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\yael_\\Repositories\\3SEMUPIICSA\\Bases de datos\\TrabajoFinal_CBD\\PROYECTO_WEB_CBD\\",
+  "WorkspaceRootPath": "C:\\Users\\torre\\OneDrive\\Documentos\\GitHub\\TrabajoFinal_CBD\\PROYECTO_WEB_CBD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB7760AE-EA90-460D-ACB2-28AD17A00DBD}|PROYECTO_WEB_CBD\\PROYECTO_WEB_CBD.csproj|c:\\users\\yael_\\repositories\\3semupiicsa\\bases de datos\\trabajofinal_cbd\\proyecto_web_cbd\\proyecto_web_cbd\\paginaprincipal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{CB7760AE-EA90-460D-ACB2-28AD17A00DBD}|PROYECTO_WEB_CBD\\PROYECTO_WEB_CBD.csproj|solutionrelative:proyecto_web_cbd\\paginaprincipal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{CB7760AE-EA90-460D-ACB2-28AD17A00DBD}|PROYECTO_WEB_CBD\\PROYECTO_WEB_CBD.csproj|c:\\users\\torre\\onedrive\\documentos\\github\\trabajofinal_cbd\\proyecto_web_cbd\\proyecto_web_cbd\\procedimiento48actualizardetalleventa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{CB7760AE-EA90-460D-ACB2-28AD17A00DBD}|PROYECTO_WEB_CBD\\PROYECTO_WEB_CBD.csproj|solutionrelative:proyecto_web_cbd\\procedimiento48actualizardetalleventa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB7760AE-EA90-460D-ACB2-28AD17A00DBD}|PROYECTO_WEB_CBD\\PROYECTO_WEB_CBD.csproj|c:\\users\\yael_\\repositories\\3semupiicsa\\bases de datos\\trabajofinal_cbd\\proyecto_web_cbd\\proyecto_web_cbd\\paginaconsultassencillas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{CB7760AE-EA90-460D-ACB2-28AD17A00DBD}|PROYECTO_WEB_CBD\\PROYECTO_WEB_CBD.csproj|solutionrelative:proyecto_web_cbd\\paginaconsultassencillas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{CB7760AE-EA90-460D-ACB2-28AD17A00DBD}|PROYECTO_WEB_CBD\\PROYECTO_WEB_CBD.csproj|C:\\Users\\torre\\OneDrive\\Documentos\\GitHub\\TrabajoFinal_CBD\\PROYECTO_WEB_CBD\\proyecto_web_cbd\\paginaprocedimientos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{CB7760AE-EA90-460D-ACB2-28AD17A00DBD}|PROYECTO_WEB_CBD\\PROYECTO_WEB_CBD.csproj|solutionrelative:proyecto_web_cbd\\paginaprocedimientos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB7760AE-EA90-460D-ACB2-28AD17A00DBD}|PROYECTO_WEB_CBD\\PROYECTO_WEB_CBD.csproj|c:\\users\\yael_\\repositories\\3semupiicsa\\bases de datos\\trabajofinal_cbd\\proyecto_web_cbd\\proyecto_web_cbd\\consultasencilla3.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{CB7760AE-EA90-460D-ACB2-28AD17A00DBD}|PROYECTO_WEB_CBD\\PROYECTO_WEB_CBD.csproj|solutionrelative:proyecto_web_cbd\\consultasencilla3.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{CB7760AE-EA90-460D-ACB2-28AD17A00DBD}|PROYECTO_WEB_CBD\\PROYECTO_WEB_CBD.csproj|c:\\users\\torre\\onedrive\\documentos\\github\\trabajofinal_cbd\\proyecto_web_cbd\\proyecto_web_cbd\\procedimiento46insertardetalleventa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{CB7760AE-EA90-460D-ACB2-28AD17A00DBD}|PROYECTO_WEB_CBD\\PROYECTO_WEB_CBD.csproj|solutionrelative:proyecto_web_cbd\\procedimiento46insertardetalleventa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7760AE-EA90-460D-ACB2-28AD17A00DBD}|PROYECTO_WEB_CBD\\PROYECTO_WEB_CBD.csproj|c:\\users\\torre\\onedrive\\documentos\\github\\trabajofinal_cbd\\proyecto_web_cbd\\proyecto_web_cbd\\procedimiento47buscardetalleventa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{CB7760AE-EA90-460D-ACB2-28AD17A00DBD}|PROYECTO_WEB_CBD\\PROYECTO_WEB_CBD.csproj|solutionrelative:proyecto_web_cbd\\procedimiento47buscardetalleventa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,50 +26,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Procedimiento48ActualizarDetalleVenta.aspx",
+              "DocumentMoniker": "C:\\Users\\torre\\OneDrive\\Documentos\\GitHub\\TrabajoFinal_CBD\\PROYECTO_WEB_CBD\\PROYECTO_WEB_CBD\\Procedimiento48ActualizarDetalleVenta.aspx",
+              "RelativeDocumentMoniker": "PROYECTO_WEB_CBD\\Procedimiento48ActualizarDetalleVenta.aspx",
+              "ToolTip": "C:\\Users\\torre\\OneDrive\\Documentos\\GitHub\\TrabajoFinal_CBD\\PROYECTO_WEB_CBD\\PROYECTO_WEB_CBD\\Procedimiento48ActualizarDetalleVenta.aspx",
+              "RelativeToolTip": "PROYECTO_WEB_CBD\\Procedimiento48ActualizarDetalleVenta.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-11-23T01:23:09.674Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PaginaConsultasSencillas.aspx",
-              "DocumentMoniker": "C:\\Users\\yael_\\Repositories\\3SEMUPIICSA\\Bases de datos\\TrabajoFinal_CBD\\PROYECTO_WEB_CBD\\PROYECTO_WEB_CBD\\PaginaConsultasSencillas.aspx",
-              "RelativeDocumentMoniker": "PROYECTO_WEB_CBD\\PaginaConsultasSencillas.aspx",
-              "ToolTip": "C:\\Users\\yael_\\Repositories\\3SEMUPIICSA\\Bases de datos\\TrabajoFinal_CBD\\PROYECTO_WEB_CBD\\PROYECTO_WEB_CBD\\PaginaConsultasSencillas.aspx",
-              "RelativeToolTip": "PROYECTO_WEB_CBD\\PaginaConsultasSencillas.aspx",
+              "DocumentIndex": 3,
+              "Title": "Procedimiento47BuscarDetalleVenta.aspx",
+              "DocumentMoniker": "C:\\Users\\torre\\OneDrive\\Documentos\\GitHub\\TrabajoFinal_CBD\\PROYECTO_WEB_CBD\\PROYECTO_WEB_CBD\\Procedimiento47BuscarDetalleVenta.aspx",
+              "RelativeDocumentMoniker": "PROYECTO_WEB_CBD\\Procedimiento47BuscarDetalleVenta.aspx",
+              "ToolTip": "C:\\Users\\torre\\OneDrive\\Documentos\\GitHub\\TrabajoFinal_CBD\\PROYECTO_WEB_CBD\\PROYECTO_WEB_CBD\\Procedimiento47BuscarDetalleVenta.aspx",
+              "RelativeToolTip": "PROYECTO_WEB_CBD\\Procedimiento47BuscarDetalleVenta.aspx",
               "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-11-22T15:23:31.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-23T01:19:52.308Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ConsultaSencilla3.aspx",
-              "DocumentMoniker": "C:\\Users\\yael_\\Repositories\\3SEMUPIICSA\\Bases de datos\\TrabajoFinal_CBD\\PROYECTO_WEB_CBD\\PROYECTO_WEB_CBD\\ConsultaSencilla3.aspx",
-              "RelativeDocumentMoniker": "PROYECTO_WEB_CBD\\ConsultaSencilla3.aspx",
-              "ToolTip": "C:\\Users\\yael_\\Repositories\\3SEMUPIICSA\\Bases de datos\\TrabajoFinal_CBD\\PROYECTO_WEB_CBD\\PROYECTO_WEB_CBD\\ConsultaSencilla3.aspx",
-              "RelativeToolTip": "PROYECTO_WEB_CBD\\ConsultaSencilla3.aspx",
+              "Title": "Procedimiento46InsertarDetalleVenta.aspx",
+              "DocumentMoniker": "C:\\Users\\torre\\OneDrive\\Documentos\\GitHub\\TrabajoFinal_CBD\\PROYECTO_WEB_CBD\\PROYECTO_WEB_CBD\\Procedimiento46InsertarDetalleVenta.aspx",
+              "RelativeDocumentMoniker": "PROYECTO_WEB_CBD\\Procedimiento46InsertarDetalleVenta.aspx",
+              "ToolTip": "C:\\Users\\torre\\OneDrive\\Documentos\\GitHub\\TrabajoFinal_CBD\\PROYECTO_WEB_CBD\\PROYECTO_WEB_CBD\\Procedimiento46InsertarDetalleVenta.aspx",
+              "RelativeToolTip": "PROYECTO_WEB_CBD\\Procedimiento46InsertarDetalleVenta.aspx",
               "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-11-22T15:15:15.654Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-23T01:12:42.583Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PaginaPrincipal.aspx",
-              "DocumentMoniker": "C:\\Users\\yael_\\Repositories\\3SEMUPIICSA\\Bases de datos\\TrabajoFinal_CBD\\PROYECTO_WEB_CBD\\PROYECTO_WEB_CBD\\PaginaPrincipal.aspx",
-              "RelativeDocumentMoniker": "PROYECTO_WEB_CBD\\PaginaPrincipal.aspx",
-              "ToolTip": "C:\\Users\\yael_\\Repositories\\3SEMUPIICSA\\Bases de datos\\TrabajoFinal_CBD\\PROYECTO_WEB_CBD\\PROYECTO_WEB_CBD\\PaginaPrincipal.aspx",
-              "RelativeToolTip": "PROYECTO_WEB_CBD\\PaginaPrincipal.aspx",
+              "DocumentIndex": 1,
+              "Title": "PaginaProcedimientos.aspx",
+              "DocumentMoniker": "C:\\Users\\torre\\OneDrive\\Documentos\\GitHub\\TrabajoFinal_CBD\\PROYECTO_WEB_CBD\\PROYECTO_WEB_CBD\\PaginaProcedimientos.aspx",
+              "RelativeDocumentMoniker": "PROYECTO_WEB_CBD\\PaginaProcedimientos.aspx",
+              "ToolTip": "C:\\Users\\torre\\OneDrive\\Documentos\\GitHub\\TrabajoFinal_CBD\\PROYECTO_WEB_CBD\\PROYECTO_WEB_CBD\\PaginaProcedimientos.aspx",
+              "RelativeToolTip": "PROYECTO_WEB_CBD\\PaginaProcedimientos.aspx",
               "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-11-22T13:56:51.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-22T18:56:44.551Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
             }
           ]
         }
