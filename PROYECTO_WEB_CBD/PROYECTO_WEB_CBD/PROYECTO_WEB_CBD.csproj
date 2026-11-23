@@ -93,9 +93,30 @@
     <Content Include="ConsultaMultitabla8.aspx" />
     <Content Include="ConsultaMultitabla9.aspx" />
     <Content Include="ConsultaSencilla1.aspx" />
+    <Content Include="ConsultaSencilla10.aspx" />
+    <Content Include="ConsultaSencilla11.aspx" />
+    <Content Include="ConsultaSencilla12.aspx" />
+    <Content Include="ConsultaSencilla13.aspx" />
+    <Content Include="ConsultaSencilla14.aspx" />
+    <Content Include="ConsultaSencilla15.aspx" />
+    <Content Include="ConsultaSencilla16.aspx" />
+    <Content Include="ConsultaSencilla17.aspx" />
+    <Content Include="ConsultaSencilla18.aspx" />
+    <Content Include="ConsultaSencilla19.aspx" />
     <Content Include="ConsultaSencilla2.aspx" />
+    <Content Include="ConsultaSencilla20.aspx" />
+    <Content Include="ConsultaSencilla21.aspx" />
+    <Content Include="Consultasencilla22.aspx" />
+    <Content Include="ConsultaSencilla23.aspx" />
+    <Content Include="ConsultaSencilla24.aspx" />
+    <Content Include="ConsultaSencilla25.aspx" />
     <Content Include="ConsultaSencilla3.aspx" />
     <Content Include="ConsultaSencilla4.aspx" />
+    <Content Include="ConsultaSencilla5.aspx" />
+    <Content Include="ConsultaSencilla6.aspx" />
+    <Content Include="ConsultaSencilla7.aspx" />
+    <Content Include="ConsultaSencilla8.aspx" />
+    <Content Include="ConsultaSencilla9.aspx" />
     <Content Include="PaginaConsultasSencillas.aspx" />
     <Content Include="PaginaConsultasMultitabla.aspx" />
     <Content Include="PaginaPrincipal.aspx" />
@@ -288,12 +309,124 @@
     <Compile Include="ConsultaSencilla1.aspx.designer.cs">
       <DependentUpon>ConsultaSencilla1.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ConsultaSencilla10.aspx.cs">
+      <DependentUpon>ConsultaSencilla10.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaSencilla10.aspx.designer.cs">
+      <DependentUpon>ConsultaSencilla10.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaSencilla11.aspx.cs">
+      <DependentUpon>ConsultaSencilla11.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaSencilla11.aspx.designer.cs">
+      <DependentUpon>ConsultaSencilla11.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaSencilla12.aspx.cs">
+      <DependentUpon>ConsultaSencilla12.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaSencilla12.aspx.designer.cs">
+      <DependentUpon>ConsultaSencilla12.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaSencilla13.aspx.cs">
+      <DependentUpon>ConsultaSencilla13.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaSencilla13.aspx.designer.cs">
+      <DependentUpon>ConsultaSencilla13.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaSencilla14.aspx.cs">
+      <DependentUpon>ConsultaSencilla14.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaSencilla14.aspx.designer.cs">
+      <DependentUpon>ConsultaSencilla14.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaSencilla15.aspx.cs">
+      <DependentUpon>ConsultaSencilla15.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaSencilla15.aspx.designer.cs">
+      <DependentUpon>ConsultaSencilla15.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaSencilla16.aspx.cs">
+      <DependentUpon>ConsultaSencilla16.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaSencilla16.aspx.designer.cs">
+      <DependentUpon>ConsultaSencilla16.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaSencilla17.aspx.cs">
+      <DependentUpon>ConsultaSencilla17.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaSencilla17.aspx.designer.cs">
+      <DependentUpon>ConsultaSencilla17.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaSencilla18.aspx.cs">
+      <DependentUpon>ConsultaSencilla18.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaSencilla18.aspx.designer.cs">
+      <DependentUpon>ConsultaSencilla18.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaSencilla19.aspx.cs">
+      <DependentUpon>ConsultaSencilla19.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaSencilla19.aspx.designer.cs">
+      <DependentUpon>ConsultaSencilla19.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ConsultaSencilla2.aspx.cs">
       <DependentUpon>ConsultaSencilla2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ConsultaSencilla2.aspx.designer.cs">
       <DependentUpon>ConsultaSencilla2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaSencilla20.aspx.cs">
+      <DependentUpon>ConsultaSencilla20.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaSencilla20.aspx.designer.cs">
+      <DependentUpon>ConsultaSencilla20.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaSencilla21.aspx.cs">
+      <DependentUpon>ConsultaSencilla21.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaSencilla21.aspx.designer.cs">
+      <DependentUpon>ConsultaSencilla21.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultasencilla22.aspx.cs">
+      <DependentUpon>Consultasencilla22.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultasencilla22.aspx.designer.cs">
+      <DependentUpon>Consultasencilla22.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaSencilla23.aspx.cs">
+      <DependentUpon>ConsultaSencilla23.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaSencilla23.aspx.designer.cs">
+      <DependentUpon>ConsultaSencilla23.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaSencilla24.aspx.cs">
+      <DependentUpon>ConsultaSencilla24.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaSencilla24.aspx.designer.cs">
+      <DependentUpon>ConsultaSencilla24.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaSencilla25.aspx.cs">
+      <DependentUpon>ConsultaSencilla25.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaSencilla25.aspx.designer.cs">
+      <DependentUpon>ConsultaSencilla25.aspx</DependentUpon>
     </Compile>
     <Compile Include="ConsultaSencilla3.aspx.cs">
       <DependentUpon>ConsultaSencilla3.aspx</DependentUpon>
@@ -308,6 +441,41 @@
     </Compile>
     <Compile Include="ConsultaSencilla4.aspx.designer.cs">
       <DependentUpon>ConsultaSencilla4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaSencilla5.aspx.cs">
+      <DependentUpon>ConsultaSencilla5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaSencilla5.aspx.designer.cs">
+      <DependentUpon>ConsultaSencilla5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaSencilla6.aspx.cs">
+      <DependentUpon>ConsultaSencilla6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaSencilla6.aspx.designer.cs">
+      <DependentUpon>ConsultaSencilla6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaSencilla7.aspx.cs">
+      <DependentUpon>ConsultaSencilla7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaSencilla7.aspx.designer.cs">
+      <DependentUpon>ConsultaSencilla7.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaSencilla8.aspx.cs">
+      <DependentUpon>ConsultaSencilla8.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaSencilla8.aspx.designer.cs">
+      <DependentUpon>ConsultaSencilla8.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaSencilla9.aspx.cs">
+      <DependentUpon>ConsultaSencilla9.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaSencilla9.aspx.designer.cs">
+      <DependentUpon>ConsultaSencilla9.aspx</DependentUpon>
     </Compile>
     <Compile Include="PaginaConsultasSencillas.aspx.cs">
       <DependentUpon>PaginaConsultasSencillas.aspx</DependentUpon>

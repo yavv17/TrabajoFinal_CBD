@@ -9,33 +9,28 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-        </div>
-        <p>
-            Consulta Semcilla 4</p>
-        <p>
-            Monstar todos los clientes
-        </p>
-        <p>
-            SELECT * FROM Cliente;</p>
-        <p>
-            &nbsp;</p>
-        <asp:GridView ID="GridView1" runat="server" BackColor="White" BorderColor="#999999" BorderStyle="Solid" BorderWidth="1px" CellPadding="3" ForeColor="Black" GridLines="Vertical">
-            <AlternatingRowStyle BackColor="#CCCCCC" />
-            <FooterStyle BackColor="#CCCCCC" />
-            <HeaderStyle BackColor="Black" Font-Bold="True" ForeColor="White" />
-            <PagerStyle BackColor="#999999" ForeColor="Black" HorizontalAlign="Center" />
-            <SelectedRowStyle BackColor="#000099" Font-Bold="True" ForeColor="White" />
-            <SortedAscendingCellStyle BackColor="#F1F1F1" />
-            <SortedAscendingHeaderStyle BackColor="#808080" />
-            <SortedDescendingCellStyle BackColor="#CAC9C9" />
-            <SortedDescendingHeaderStyle BackColor="#383838" />
-        </asp:GridView>
-        <br />
-        <br />
-        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/PaginaPrincipal.aspx.cs">Regresar Inicio</asp:HyperLink>
-        <br />
-        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/PaginaConsultasSencillas.aspx">Regresar consultas sencillas </asp:HyperLink>
+            Consulta Sencilla 4<br />
+            <br />
+            {Descripcion}<br />
+            <br />
+            {Consulta}<br />
+            <br />
+            <asp:GridView ID="GridView1" runat="server" BackColor="White" BorderColor="#999999" BorderStyle="Solid" BorderWidth="1px" CellPadding="3" ForeColor="Black" GridLines="Vertical">
+                <AlternatingRowStyle BackColor="#CCCCCC" />
+                <FooterStyle BackColor="#CCCCCC" />
+                <HeaderStyle BackColor="Black" Font-Bold="True" ForeColor="White" />
+                <PagerStyle BackColor="#999999" ForeColor="Black" HorizontalAlign="Center" />
+                <SelectedRowStyle BackColor="#000099" Font-Bold="True" ForeColor="White" />
+                <SortedAscendingCellStyle BackColor="#F1F1F1" />
+                <SortedAscendingHeaderStyle BackColor="#808080" />
+                <SortedDescendingCellStyle BackColor="#CAC9C9" />
+                <SortedDescendingHeaderStyle BackColor="#383838" />
+            </asp:GridView>
+            <br />
+            <br />
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/PaginaPrincipal.aspx">Regresar inicio</asp:HyperLink>
+            <br />
+            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/PaginaConsultasSencillas.aspx">Regresar consultas sencillas</asp:HyperLink>
         <br />
     </form>
 </body>

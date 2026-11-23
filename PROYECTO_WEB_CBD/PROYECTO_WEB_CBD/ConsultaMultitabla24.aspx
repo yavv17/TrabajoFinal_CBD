@@ -33,9 +33,6 @@
             <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/PaginaConsultasMultitabla.aspx">Regresar consultas multitabla</asp:HyperLink>
         </div>
     </form>
-    <form id="form1" runat="server">
-        <div>
-        </div>
-    </form>
+   >
 </body>
 </html>
