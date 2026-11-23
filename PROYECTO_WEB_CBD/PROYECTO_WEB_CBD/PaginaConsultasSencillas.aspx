@@ -23,7 +23,8 @@
             <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/ConsultaSencilla3.aspx">{ConsultaSencilla3}</asp:HyperLink>
             <br />
             <br />
-            4.-<br />
+            4.-<asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/ConsultaSencilla4.aspx">{ConsultaSencilla4}</asp:HyperLink>
+            <br />
             <br />
             5.-<br />
             <br />
