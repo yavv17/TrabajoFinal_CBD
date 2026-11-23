@@ -18,6 +18,12 @@
             Nombre:<asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
             <br />
             <br />
+            ID_Estado:
+            <asp:DropDownList ID="DropDownList1" runat="server" DataSourceID="OrigenDatosDropDownListProcedimienton4" DataTextField="nom_estado" DataValueField="id_estado">
+            </asp:DropDownList>
+            <asp:SqlDataSource ID="OrigenDatosDropDownListProcedimienton4" runat="server" ConnectionString="<%$ ConnectionStrings:ConexionTechIADB %>" SelectCommand="SELECT [id_estado], [nom_estado] FROM [Estado]"></asp:SqlDataSource>
+&nbsp;
+            <br />
             <br />
             <asp:Button ID="Button1" runat="server" Text="Insertar" />
             <br />
