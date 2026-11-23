@@ -12,11 +12,18 @@
         <div>
             Consulta Multitabla 1<br />
             <br />
-            {Descripcion}<br />
+            Mostrar el nombre de los productos junto con el de su categoria<br />
             <br />
-            {Consulta }<br />
-            <asp:GridView ID="GridView1" runat="server" BackColor="White" BorderColor="#999999" BorderStyle="Solid" BorderWidth="1px" CellPadding="3" ForeColor="Black" GridLines="Vertical">
+            SELECT p.nom_producto, c.nom_categoria<br />
+            FROM Producto p<br />
+            INNER JOIN Categoria c ON p.id_categoria = c.id_categoria<br />
+            <br />
+            <asp:GridView ID="GridView1" runat="server" BackColor="White" BorderColor="#999999" BorderStyle="Solid" BorderWidth="1px" CellPadding="3" ForeColor="Black" GridLines="Vertical" AutoGenerateColumns="False" DataSourceID="OrigenDatosConsultaMultitabla1">
                 <AlternatingRowStyle BackColor="#CCCCCC" />
+                <Columns>
+                    <asp:BoundField DataField="nom_producto" HeaderText="nom_producto" SortExpression="nom_producto" />
+                    <asp:BoundField DataField="nom_categoria" HeaderText="nom_categoria" SortExpression="nom_categoria" />
+                </Columns>
                 <FooterStyle BackColor="#CCCCCC" />
                 <HeaderStyle BackColor="Black" Font-Bold="True" ForeColor="White" />
                 <PagerStyle BackColor="#999999" ForeColor="Black" HorizontalAlign="Center" />
@@ -26,6 +33,9 @@
                 <SortedDescendingCellStyle BackColor="#CAC9C9" />
                 <SortedDescendingHeaderStyle BackColor="#383838" />
             </asp:GridView>
+            <asp:SqlDataSource ID="OrigenDatosConsultaMultitabla1" runat="server" ConnectionString="<%$ ConnectionStrings:ConexionTechIADB %>" SelectCommand="SELECT p.nom_producto, c.nom_categoria
+FROM Producto p
+INNER JOIN Categoria c ON p.id_categoria = c.id_categoria"></asp:SqlDataSource>
             <br />
             <br />
             <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/PaginaPrincipal.aspx">Regresar inicio</asp:HyperLink>
