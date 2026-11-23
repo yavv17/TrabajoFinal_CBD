@@ -121,9 +121,54 @@
     <Content Include="PaginaConsultasMultitabla.aspx" />
     <Content Include="PaginaPrincipal.aspx" />
     <Content Include="PaginaProcedimientos.aspx" />
+    <Content Include="Procedimiento10InsertarEmpresa.aspx" />
+    <Content Include="Procedimiento11BuscarEmpresa.aspx" />
+    <Content Include="Procedimiento12ActualizarEmpresa.aspx" />
+    <Content Include="Procedimiento13InsertarCliente.aspx" />
+    <Content Include="Procedimiento14BuscarCliente.aspx" />
+    <Content Include="Procedimiento15ActualizarCliente.aspx" />
+    <Content Include="Procedimiento16InsertarPais.aspx" />
+    <Content Include="Procedimiento17BuscarPais.aspx" />
+    <Content Include="Procedimiento18ActualizarPais.aspx" />
+    <Content Include="Procedimiento19InsertarProveedor.aspx" />
     <Content Include="Procedimiento1InsertarEstado.aspx" />
+    <Content Include="Procedimiento20BuscarProveedor.aspx" />
+    <Content Include="Procedimiento21ActuallizarProveeedor.aspx" />
+    <Content Include="Procedimiento22InsertarCategoria.aspx" />
+    <Content Include="Procedimiento23BuscarCategoria.aspx" />
+    <Content Include="Procedimiento24ActualizarCategoria.aspx" />
+    <Content Include="Procedimiento25InsertarProducto.aspx" />
+    <Content Include="Procedimiento26BuscarProducto.aspx" />
+    <Content Include="Procedimiento27ActualizarProducto.aspx" />
+    <Content Include="Procedimiento28InsertarPlanSuscripcion.aspx" />
+    <Content Include="Procedimiento29BuscarPlanSuscripcion.aspx" />
     <Content Include="Procedimiento2BuscarEstado.aspx" />
+    <Content Include="Procedimiento30ActualizarPlanSuscripcion.aspx" />
+    <Content Include="Procedimiento31InsertarMetodoPago.aspx" />
+    <Content Include="Procedimiento32BuscarMetodoPago.aspx" />
+    <Content Include="Procedimiento33ActualizarMetodoPago.aspx" />
+    <Content Include="Procedimiento34InsertarDepartamento.aspx" />
+    <Content Include="Procedimiento35BuscarDepartamento.aspx" />
+    <Content Include="Procedimiento36ActualizarDepartamento.aspx" />
+    <Content Include="Procedimiento37InsertarSucursal.aspx" />
+    <Content Include="Procedimiento48ActualizarDetalleVenta.aspx" />
+    <Content Include="Procedimiento38BuscarSucursal.aspx" />
+    <Content Include="Procedimiento39ActualizarSucursal.aspx" />
     <Content Include="Procedimiento3ActualizarEstado.aspx" />
+    <Content Include="Procedimiento41BuscarVendedor.aspx" />
+    <Content Include="Procedimiento40InsertarVendedor.aspx" />
+    <Content Include="Procedimiento42ActualizarVendedor.aspx" />
+    <Content Include="Procedimiento43InsertarVenta.aspx" />
+    <Content Include="Procedimiento44BuscarVenta.aspx" />
+    <Content Include="Procedimiento45ActualizarVenta.aspx" />
+    <Content Include="Procedimiento46InsertarDetalleVenta.aspx" />
+    <Content Include="Procedimiento47BuscarDetalleVenta.aspx" />
+    <Content Include="Procedimiento4InsertarCiudad.aspx" />
+    <Content Include="Procedimiento5BuscarCiudad.aspx" />
+    <Content Include="Procedimiento6ActualizarCiudad.aspx" />
+    <Content Include="Procedimiento7InsertarGiro.aspx" />
+    <Content Include="Procedimiento8BuscarGiro.aspx" />
+    <Content Include="Procedimiento9ActualizarGiro.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -505,12 +550,152 @@
     <Compile Include="PaginaProcedimientos.aspx.designer.cs">
       <DependentUpon>PaginaProcedimientos.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Procedimiento10InsertarEmpresa.aspx.cs">
+      <DependentUpon>Procedimiento10InsertarEmpresa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento10InsertarEmpresa.aspx.designer.cs">
+      <DependentUpon>Procedimiento10InsertarEmpresa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento11BuscarEmpresa.aspx.cs">
+      <DependentUpon>Procedimiento11BuscarEmpresa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento11BuscarEmpresa.aspx.designer.cs">
+      <DependentUpon>Procedimiento11BuscarEmpresa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento12ActualizarEmpresa.aspx.cs">
+      <DependentUpon>Procedimiento12ActualizarEmpresa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento12ActualizarEmpresa.aspx.designer.cs">
+      <DependentUpon>Procedimiento12ActualizarEmpresa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento13InsertarCliente.aspx.cs">
+      <DependentUpon>Procedimiento13InsertarCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento13InsertarCliente.aspx.designer.cs">
+      <DependentUpon>Procedimiento13InsertarCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento14BuscarCliente.aspx.cs">
+      <DependentUpon>Procedimiento14BuscarCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento14BuscarCliente.aspx.designer.cs">
+      <DependentUpon>Procedimiento14BuscarCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento15ActualizarCliente.aspx.cs">
+      <DependentUpon>Procedimiento15ActualizarCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento15ActualizarCliente.aspx.designer.cs">
+      <DependentUpon>Procedimiento15ActualizarCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento16InsertarPais.aspx.cs">
+      <DependentUpon>Procedimiento16InsertarPais.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento16InsertarPais.aspx.designer.cs">
+      <DependentUpon>Procedimiento16InsertarPais.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento17BuscarPais.aspx.cs">
+      <DependentUpon>Procedimiento17BuscarPais.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento17BuscarPais.aspx.designer.cs">
+      <DependentUpon>Procedimiento17BuscarPais.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento18ActualizarPais.aspx.cs">
+      <DependentUpon>Procedimiento18ActualizarPais.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento18ActualizarPais.aspx.designer.cs">
+      <DependentUpon>Procedimiento18ActualizarPais.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento19InsertarProveedor.aspx.cs">
+      <DependentUpon>Procedimiento19InsertarProveedor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento19InsertarProveedor.aspx.designer.cs">
+      <DependentUpon>Procedimiento19InsertarProveedor.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Procedimiento1InsertarEstado.aspx.cs">
       <DependentUpon>Procedimiento1InsertarEstado.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Procedimiento1InsertarEstado.aspx.designer.cs">
       <DependentUpon>Procedimiento1InsertarEstado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento20BuscarProveedor.aspx.cs">
+      <DependentUpon>Procedimiento20BuscarProveedor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento20BuscarProveedor.aspx.designer.cs">
+      <DependentUpon>Procedimiento20BuscarProveedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento21ActuallizarProveeedor.aspx.cs">
+      <DependentUpon>Procedimiento21ActuallizarProveeedor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento21ActuallizarProveeedor.aspx.designer.cs">
+      <DependentUpon>Procedimiento21ActuallizarProveeedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento22InsertarCategoria.aspx.cs">
+      <DependentUpon>Procedimiento22InsertarCategoria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento22InsertarCategoria.aspx.designer.cs">
+      <DependentUpon>Procedimiento22InsertarCategoria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento23BuscarCategoria.aspx.cs">
+      <DependentUpon>Procedimiento23BuscarCategoria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento23BuscarCategoria.aspx.designer.cs">
+      <DependentUpon>Procedimiento23BuscarCategoria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento24ActualizarCategoria.aspx.cs">
+      <DependentUpon>Procedimiento24ActualizarCategoria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento24ActualizarCategoria.aspx.designer.cs">
+      <DependentUpon>Procedimiento24ActualizarCategoria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento25InsertarProducto.aspx.cs">
+      <DependentUpon>Procedimiento25InsertarProducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento25InsertarProducto.aspx.designer.cs">
+      <DependentUpon>Procedimiento25InsertarProducto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento26BuscarProducto.aspx.cs">
+      <DependentUpon>Procedimiento26BuscarProducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento26BuscarProducto.aspx.designer.cs">
+      <DependentUpon>Procedimiento26BuscarProducto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento27ActualizarProducto.aspx.cs">
+      <DependentUpon>Procedimiento27ActualizarProducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento27ActualizarProducto.aspx.designer.cs">
+      <DependentUpon>Procedimiento27ActualizarProducto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento28InsertarPlanSuscripcion.aspx.cs">
+      <DependentUpon>Procedimiento28InsertarPlanSuscripcion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento28InsertarPlanSuscripcion.aspx.designer.cs">
+      <DependentUpon>Procedimiento28InsertarPlanSuscripcion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento29BuscarPlanSuscripcion.aspx.cs">
+      <DependentUpon>Procedimiento29BuscarPlanSuscripcion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento29BuscarPlanSuscripcion.aspx.designer.cs">
+      <DependentUpon>Procedimiento29BuscarPlanSuscripcion.aspx</DependentUpon>
     </Compile>
     <Compile Include="Procedimiento2BuscarEstado.aspx.cs">
       <DependentUpon>Procedimiento2BuscarEstado.aspx</DependentUpon>
@@ -519,12 +704,187 @@
     <Compile Include="Procedimiento2BuscarEstado.aspx.designer.cs">
       <DependentUpon>Procedimiento2BuscarEstado.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Procedimiento30ActualizarPlanSuscripcion.aspx.cs">
+      <DependentUpon>Procedimiento30ActualizarPlanSuscripcion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento30ActualizarPlanSuscripcion.aspx.designer.cs">
+      <DependentUpon>Procedimiento30ActualizarPlanSuscripcion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento31InsertarMetodoPago.aspx.cs">
+      <DependentUpon>Procedimiento31InsertarMetodoPago.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento31InsertarMetodoPago.aspx.designer.cs">
+      <DependentUpon>Procedimiento31InsertarMetodoPago.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento32BuscarMetodoPago.aspx.cs">
+      <DependentUpon>Procedimiento32BuscarMetodoPago.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento32BuscarMetodoPago.aspx.designer.cs">
+      <DependentUpon>Procedimiento32BuscarMetodoPago.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento33ActualizarMetodoPago.aspx.cs">
+      <DependentUpon>Procedimiento33ActualizarMetodoPago.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento33ActualizarMetodoPago.aspx.designer.cs">
+      <DependentUpon>Procedimiento33ActualizarMetodoPago.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento34InsertarDepartamento.aspx.cs">
+      <DependentUpon>Procedimiento34InsertarDepartamento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento34InsertarDepartamento.aspx.designer.cs">
+      <DependentUpon>Procedimiento34InsertarDepartamento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento35BuscarDepartamento.aspx.cs">
+      <DependentUpon>Procedimiento35BuscarDepartamento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento35BuscarDepartamento.aspx.designer.cs">
+      <DependentUpon>Procedimiento35BuscarDepartamento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento36ActualizarDepartamento.aspx.cs">
+      <DependentUpon>Procedimiento36ActualizarDepartamento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento36ActualizarDepartamento.aspx.designer.cs">
+      <DependentUpon>Procedimiento36ActualizarDepartamento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento37InsertarSucursal.aspx.cs">
+      <DependentUpon>Procedimiento37InsertarSucursal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento37InsertarSucursal.aspx.designer.cs">
+      <DependentUpon>Procedimiento37InsertarSucursal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento48ActualizarDetalleVenta.aspx.cs">
+      <DependentUpon>Procedimiento48ActualizarDetalleVenta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento48ActualizarDetalleVenta.aspx.designer.cs">
+      <DependentUpon>Procedimiento48ActualizarDetalleVenta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento38BuscarSucursal.aspx.cs">
+      <DependentUpon>Procedimiento38BuscarSucursal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento38BuscarSucursal.aspx.designer.cs">
+      <DependentUpon>Procedimiento38BuscarSucursal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento39ActualizarSucursal.aspx.cs">
+      <DependentUpon>Procedimiento39ActualizarSucursal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento39ActualizarSucursal.aspx.designer.cs">
+      <DependentUpon>Procedimiento39ActualizarSucursal.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Procedimiento3ActualizarEstado.aspx.cs">
       <DependentUpon>Procedimiento3ActualizarEstado.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Procedimiento3ActualizarEstado.aspx.designer.cs">
       <DependentUpon>Procedimiento3ActualizarEstado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento41BuscarVendedor.aspx.cs">
+      <DependentUpon>Procedimiento41BuscarVendedor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento41BuscarVendedor.aspx.designer.cs">
+      <DependentUpon>Procedimiento41BuscarVendedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento40InsertarVendedor.aspx.cs">
+      <DependentUpon>Procedimiento40InsertarVendedor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento40InsertarVendedor.aspx.designer.cs">
+      <DependentUpon>Procedimiento40InsertarVendedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento42ActualizarVendedor.aspx.cs">
+      <DependentUpon>Procedimiento42ActualizarVendedor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento42ActualizarVendedor.aspx.designer.cs">
+      <DependentUpon>Procedimiento42ActualizarVendedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento43InsertarVenta.aspx.cs">
+      <DependentUpon>Procedimiento43InsertarVenta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento43InsertarVenta.aspx.designer.cs">
+      <DependentUpon>Procedimiento43InsertarVenta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento44BuscarVenta.aspx.cs">
+      <DependentUpon>Procedimiento44BuscarVenta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento44BuscarVenta.aspx.designer.cs">
+      <DependentUpon>Procedimiento44BuscarVenta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento45ActualizarVenta.aspx.cs">
+      <DependentUpon>Procedimiento45ActualizarVenta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento45ActualizarVenta.aspx.designer.cs">
+      <DependentUpon>Procedimiento45ActualizarVenta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento46InsertarDetalleVenta.aspx.cs">
+      <DependentUpon>Procedimiento46InsertarDetalleVenta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento46InsertarDetalleVenta.aspx.designer.cs">
+      <DependentUpon>Procedimiento46InsertarDetalleVenta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento47BuscarDetalleVenta.aspx.cs">
+      <DependentUpon>Procedimiento47BuscarDetalleVenta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento47BuscarDetalleVenta.aspx.designer.cs">
+      <DependentUpon>Procedimiento47BuscarDetalleVenta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento4InsertarCiudad.aspx.cs">
+      <DependentUpon>Procedimiento4InsertarCiudad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento4InsertarCiudad.aspx.designer.cs">
+      <DependentUpon>Procedimiento4InsertarCiudad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento5BuscarCiudad.aspx.cs">
+      <DependentUpon>Procedimiento5BuscarCiudad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento5BuscarCiudad.aspx.designer.cs">
+      <DependentUpon>Procedimiento5BuscarCiudad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento6ActualizarCiudad.aspx.cs">
+      <DependentUpon>Procedimiento6ActualizarCiudad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento6ActualizarCiudad.aspx.designer.cs">
+      <DependentUpon>Procedimiento6ActualizarCiudad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento7InsertarGiro.aspx.cs">
+      <DependentUpon>Procedimiento7InsertarGiro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento7InsertarGiro.aspx.designer.cs">
+      <DependentUpon>Procedimiento7InsertarGiro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento8BuscarGiro.aspx.cs">
+      <DependentUpon>Procedimiento8BuscarGiro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento8BuscarGiro.aspx.designer.cs">
+      <DependentUpon>Procedimiento8BuscarGiro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimiento9ActualizarGiro.aspx.cs">
+      <DependentUpon>Procedimiento9ActualizarGiro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedimiento9ActualizarGiro.aspx.designer.cs">
+      <DependentUpon>Procedimiento9ActualizarGiro.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
