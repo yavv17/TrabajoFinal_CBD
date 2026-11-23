@@ -31,9 +31,5 @@
             <br />
             <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/PaginaConsultasSencillas.aspx">Regresar consultas sencillas</asp:HyperLink>
     </form>
-    <form id="form1" runat="server">
-        <div>
-        </div>
-    </form>
 </body>
 </html>

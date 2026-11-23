@@ -35,7 +35,7 @@
                 <SortedDescendingCellStyle BackColor="#CAC9C9" />
                 <SortedDescendingHeaderStyle BackColor="#383838" />
             </asp:GridView>
-            <asp:SqlDataSource ID="OrigenDatosGridViewConsultaSencilla1" runat="server" ConnectionString="<%$ ConnectionStrings:ConexionTechIADB %>" ProviderName="System.Data.OracleClient" SelectCommand="SELECT * FROM Producto"></asp:SqlDataSource>
+            <asp:SqlDataSource ID="OrigenDatosGridViewConsultaSencilla1" runat="server" ConnectionString="<%$ ConnectionStrings:ConexionTechIADB %>" SelectCommand="SELECT * FROM [Producto]"></asp:SqlDataSource>
             <br />
             <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/PaginaPrincipal.aspx">Regresar inicio</asp:HyperLink>
             <br />
