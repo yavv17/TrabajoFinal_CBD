@@ -1,0 +1,20 @@
+# Visual Studio
+.vs/
+**/.vs/
+
+# Archivos compilados
+[Bb]in/
+[Oo]bj/
+
+# Archivos de depuración
+*.dll
+*.pdb
+
+# Archivos temporales y caché
+*.cache
+*.suo
+*.user
+*.sln.docstates
+
+# Configuración de ventanas y documentos
+DocumentLayout*.json
